@@ -11,7 +11,7 @@ source ./.venv/bin/activate
 # the next 3 lines install the fastmax library
 module load gcc
 module load cuda
-python /fs/nexus-scratch/agerami/litgpt/setup_fastmax.py install
+python linear_attention/setup_fastmax.py install
 # your commands
 litgpt download EleutherAI/pythia-1.4b
 litgpt pretrain pythia-1.4b \
